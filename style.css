@@ -48,7 +48,7 @@ body {
   box-shadow: 0 0 15px var(--bloody-red);
   border-bottom: 3px solid var(--dark-bloody-red);
   color: var(--text-light);
-    color : var(--bloody-red);
+   
     font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -93,12 +93,55 @@ body {
     background-color: var(--btn-bg-color);
     border : 2px solid var(--btn-border-color);
     border-radius : 5px;
-    padding : 10px;
+    padding : 20px 50px;
     color : var(--card-bg-color);
+    font-size: 30px;
 }
 
 .content button:hover {
     color: #ff0000;
     text-shadow: 0 0 10px #ff0000;
     background-color: var(--dark-bloody-red);
+}
+
+#second {
+    margin-top : 200px;
+}
+
+.cards h1 {
+    text-align : center;
+}
+
+
+.card  {
+    background-color: var(--card-bg-color);
+    color : var(--bloody-red);
+}
+
+.list-group-item {
+    background-color: var(--card-bg-color);
+    color : var(--bloody-red);
+    border : none;
+}
+
+.card-body button {
+    background-color: var(--btn-bg-color);
+    border : 2px solid var(--btn-border-color);
+    padding: 5px 10px;
+}
+
+.card-body button:hover {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+    background-color: var(--dark-bloody-red);
+}
+
+.container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;       
+  justify-content: space-evenly; 
+  padding: 1rem;
+
 }
