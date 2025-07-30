@@ -1,0 +1,84 @@
+:root {
+  --bg-color: #1a1a1a;
+  --card-bg-color: #222222;
+  --text-color: #f8f9fa;
+  --btn-bg-color: #8B0000;
+  --btn-border-color: #5a0000;
+  --link-color: #3a004e;
+  --badge-bg-color: #3b0000;
+    --bloody-red: #8B0000;
+  --dark-bloody-red: #5a0000;
+  --text-light: #f8f9fa;
+
+}
+
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color : var(--bloody-red);
+  font-family: 'Creepster', cursive;
+}
+
+.title {
+    text-align : center;
+
+}
+
+ h1:hover {
+    color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.navbar {
+    height : 100px;
+  background: linear-gradient(45deg, var(--bloody-red), var(--dark-bloody-red));
+  box-shadow: 0 0 15px var(--bloody-red);
+  border-bottom: 3px solid var(--dark-bloody-red);
+  color: var(--text-light);
+    color : var(--bloody-red);
+    font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display : flex;
+  justify-content : space-evenly;
+  align-items : center;
+  margin-top : 20px;
+}
+
+.navbar i {
+    color : var(--text-color);
+}
+
+.navbar a {
+  color: var(--text-light);
+  text-shadow: 2px 2px 5px black;
+  text-decoration : none;
+}
+
+.navbar a:hover {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+}
+.navbar i:hover {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.content {
+    text-align : center;
+    margin-top : 20px;
+}
+
+.content h1 {
+    font-size: 45px;
+}
+.content p {
+    font-size: 20px;
+}
+
